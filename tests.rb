@@ -10,7 +10,7 @@ def __test__
     terminal.scan(suite)
   end
   if terminal.total_price == 32.40
-    puts "Expected: 32.40\n
+    puts "Expected: 32.4\n
     Got: #{terminal.total_price}
     First testing suite passed"
   else
@@ -42,7 +42,7 @@ def __test__
     terminal3.scan(suite)
   end
   if terminal3.total_price == 15.40
-    puts "Expected: 15.40\n
+    puts "Expected: 15.4\n
     Got: #{terminal3.total_price}
     Third testing suite passed"
   else
