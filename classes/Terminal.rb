@@ -4,11 +4,12 @@ class Terminal
   attr_accessor :products_scanned
   include Variables
   
-  def initialized
-    @products_scanned = []
+  def initialize()
+    @products_scanned = []  
   end
 
-  def scan(product)
+  def scan product
+    puts @products_scanned.class
     @products_scanned << Variables::PRODUCTS_LIST[product.to_sym]
   end
 
